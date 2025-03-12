@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beans & Snickers Enterprises</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background: url('hero-bg.jpg') center/cover no-repeat;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: rgb(83, 181, 206);
+        }
+        .services .card {
+            transition: transform 0.3s;
+        }
+        .services .card:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Company</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero d-flex flex-column justify-content-center align-items-center">
+        <div class="container">
+            <h1>Welcome to Beans & Snickers Enterprises</h1>
+            <p>Paws-itively Purrfect Creations</p>
+            <a href="#services" class="btn btn-primary">Explore Services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services py-5">
+        <div class="container">
+            <h2 class="text-center">Our Services</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Cat-sulting</h5>
+                            <p class="card-text">Need Life Advice? Beans and Snickers will stare at you judgementally until you figure it out.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Fur-tastic Merch</h5>
+                            <p class="card-text">From paw-printed apparel to coffee mugs with sassy cat quotes, we create products inspired by the everyday antics of our 2 fluffy bosses.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Personalized Cat-grams</h5>
+                            <p class="card-text">Beans and Snickers offer video "meow-tivational" messages and judgement stares upon request.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">About Us</h2>
+            <p class="text-center">We are a feline powered company run by 2 highly unqualified CEOs - Beans and Snickers.</p>
+            <p class="text-center">With a mixture of mischief and business acumen, our 2 furry founders have curated the purrfect selection of services to bring joy, laughter, and a little chaos into your life. </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container d-flex justify-content-between">
+            <p>Powered by cat naps and bad decisions</p>
+            <p>Contact Us: meow@beansandsnickers.com</p>
+           
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
